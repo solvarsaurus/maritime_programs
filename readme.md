@@ -4,15 +4,19 @@ Welcome to the Maritime Software Suite, a collection of programs designed to fac
 
 ## Programs Overview
 
-### Coordinate Management System (CMS) 
+### Maritime Coordinate Management System (MCMS) 
 
-This program focuses on managing and working with different types of coordinate systems, including Cartesian, Polar, and Geographic. It includes features such as coordinate conversion, geographic mapping, and distance calculations using the Haversine formula. Ideal for navigation, ship tracking, and maritime location-based operations.
+This project contains a unit test to evaluate singleton design partern in a maritime company context. It is designed to test whether factory functions return unique instances or singleton instances. This concept is useful in maritime applications to ensure specific objects, such as ships, GPS systems, or database connections, are not duplicated.
 
-### Container Blueprint System (MCSP)
+### Maritime Container Ship Blueprint System (MCSP)
 
-This program employs the prototype design pattern to create and manage variations of container ships. It allows for easy replication and customization of ship configurations, enabling efficient container ship management and design. It can be used to create different ship prototypes with varying properties and features.
+This project demonstrates the Prototype design pattern applied to a maritime context focusing on container ships. The pattern allows for creating new container instances by copying existing prototypes. This approach is useful when creating different types of containers with common attributes but varying specific details.
 
-## Operations Management System (MOMS)
+### Maritime Navigation and Mapping System (MNMS)
+
+This project demonstrates a system for managing multiple types of coordinates, including Cartesian, Polar, and Geographic. In a factory design pattern. The code is designed with a maritime focus, allowing users to create and manipulate different types of coordinates and calculate distances between geographic points.
+
+### Maritime Operations Management System (MOMS)
 
 This program serves as a factory for creating and managing various maritime operations. It uses the factory design pattern to encapsulate object creation, allowing users to create different maritime operation scenarios and objects with flexibility and scalability. It's useful for handling maritime logistics, operations, and related activities.
 
