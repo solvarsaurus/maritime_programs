@@ -32,3 +32,6 @@ class Evaluate(TestCase):
     def test_secondary_ship_is_not_singleton(self):
         # Test that the secondary ship factory creates new instances
         self.assertFalse(identifier_1(secondary_ship_factory))
+
+        if __name__ == '__main__':
+            unittest.main()

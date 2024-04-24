@@ -29,7 +29,7 @@ To run this code, you need Python installed. The code includes no external depen
 
 Here's an example of creating and working with different types of coordinates:
 
-```python
+```bash
 # Creating different types of points
 p1 = Point.new_cartesian_point(3, 4)  # Cartesian
 p2 = Point.new_polar_point(5, 0.785)  # Polar (approx. 45 degrees)
@@ -48,3 +48,18 @@ sf = Point.new_geographic_point(37.7749, -122.4194)  # San Francisco
 la = Point.new_geographic_point(34.0522, -118.2437)  # Los Angeles
 distance = Point.haversine_distance(sf, la)
 print("Distance between SF and LA:", distance, "km")
+```
+
+## Usage in Maritime Applications
+This system can be used in maritime contexts for various tasks, including:
+
+* Ship Tracking: Track ship positions using geographic coordinates.
+* Navigation: Calculate distances between ports, waypoints, or ships using the Haversine formula.
+* Route Planning: Convert coordinates to understand the ship's route and find optimal paths.
+
+## Contributing
+If you'd like to contribute, please submit a pull request with a description of your changes. Ensure new features or bug fixes are accompanied by appropriate test cases.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -23,4 +23,20 @@ To run the tests, use the following command:
 
 ```bash
 python -m unittest test_singleton
+```
 
+This will execute all the test cases in the Evaluate class to determine if the factory functions are creating singleton instances or not. 
+In other words if it is generating the same instance each time or not.
+
+
+## Test Cases
+* test_primary_ship_is_singleton: Tests whether the primary_ship_factory returns the same instance each time.
+* test_secondary_ship_is_not_singleton: Tests whether the secondary_ship_factory creates a new instance each time.
+
+## Contributing
+If you would like to contribute to this project, please submit a pull request with a detailed explanation of your changes. 
+Ensure that all new features or fixes are accompanied by appropriate test cases.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -25,26 +25,30 @@ This program serves as a factory for creating and managing various maritime oper
 To run these programs, you'll need Python installed on your system. No external dependencies are required for basic usage, but advanced features might necessitate additional packages. Each program has its own entry point, typically using an `if __name__ == '__main__':` block.
 
 1. **Clone this repository** to your local system:
-   ```bash
+```bash
    git clone https://github.com/your-username/maritime-software-suite.git
+```
 
 2. Navigate to the program directory you'd like to run, then execute the script using Python:
-'''
+
+```bash 
 cd maritime-software-suite
-python maritime_coordinate_system.py  '''
+python maritime_coordinate_system.py 
+```
 
 ## for the Maritime Coordinate System program
 Follow the on-screen prompts (if applicable) to interact with the program.
 
-# Usage Scenarios
-## Here are some common usage scenarios for these programs:
+## Usage Scenarios
+### Here are some common usage scenarios for these programs:
 
 * Navigation and Mapping: Use the Maritime Coordinate System to work with coordinates, convert between different systems, and calculate distances between geographic points.
 * Container Ship Management: Utilize the Maritime Container Ship Prototype to create and manage different container ship configurations.
 * Maritime Operations: Leverage the Maritime Operations Management System to create various maritime operations and manage them through a factory pattern.
 
-# Contributing
+## Contributing
 We welcome contributions to this repository! If you have suggestions for new features, improvements, or bug fixes, please submit a pull request with a detailed explanation of your changes.
 
-# License
-This repository is licensed under the MIT License. Please refer to the LICENSE file for details on licensing and usage rights. 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

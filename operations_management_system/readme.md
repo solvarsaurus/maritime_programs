@@ -22,7 +22,26 @@ To run this code, you'll need Python. The code doesn't require additional depend
 
 To create and execute maritime operations, you can use the `MaritimeOperationMachine`. Here's an example:
 
-```python
+```bash
 mom = MaritimeOperationMachine()  # Initialize the machine
 operation = mom.initiate_operation()  # Get user input to choose an operation
 operation.execute()  # Execute the selected operation
+```
+
+## Applications
+### This factory pattern can be applied to various maritime contexts, including:
+
+* Container Ships: Operations for loading/unloading containers, ship maintenance, and navigation.
+* Cruise Ships: Managing entertainment, passenger boarding, safety drills, and maintenance.
+* Cargo Ships: Tasks related to cargo handling, equipment maintenance, and navigation.
+* Offshore Platforms: Operations for drilling, safety checks, and logistics.
+* Fishing Vessels: Managing fishing operations, net maintenance, and catch processing.
+* Research Vessels: Data collection, equipment calibration, and navigation.
+* Naval Ships: Operations for combat drills, navigation, and equipment maintenance.
+
+## Contributing
+If you'd like to contribute, please submit a pull request with detailed explanations of your changes. Ensure new features or bug fixes are accompanied by appropriate test cases.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
